@@ -9,7 +9,7 @@
 #                (Note: if implementing in Java, please use a character array so that you can perform this operation in place.)
 #                EXAMPLE
 #                Input: "Mr John Smith"
-#                Output: "Mr%20Dohn%20Smith"
+#                Output: "Mr%20John%20Smith"
 #########################################################################################
 import unittest, os
 
@@ -22,6 +22,7 @@ def encode_space(str):
 class encode_space_test(unittest.TestCase):
     def test(self):
         print(encode_space("How you do? "))
+        print(encode_space("Mr John Smith"))
         os.system("Pause")
 
 
