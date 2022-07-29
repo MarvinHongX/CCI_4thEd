@@ -11,7 +11,7 @@
 #                (2) A disk is slid off the top of one tower onto the next rod.
 #                (3) A disk can only be placed on top of a larger disk.
 #                Write a program to move the disks from the first tower to the last using Stacks.
-#                (Tower of Hanoi
+#                (Tower of Hanoi)
 #########################################################################################
 import unittest, os, operator
 
